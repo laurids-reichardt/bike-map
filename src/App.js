@@ -17,14 +17,13 @@ const mobileStyle = theme =>
 
 const styles = theme => ({
   root: {
-    height: '90vh',
-    width: '90vw',
+    height: '100%',
+    width: '100%',
     display: 'flex',
     flexDirection: 'column',
     position: 'relative',
     overflow: 'hidden',
-    borderRadius: '6px 6px 6px 6px',
-    // [theme.breakpoints.up('md')]: mobileStyle(theme),
+    [theme.breakpoints.up('md')]: mobileStyle(theme),
   },
 });
 
