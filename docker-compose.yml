@@ -1,0 +1,9 @@
+version: '3'
+services:
+  tileserver:
+    image: klokantech/tileserver-gl
+    container_name: tileserver
+    volumes:
+      - ./map-data:/data
+    ports:
+      - '4000:80'
