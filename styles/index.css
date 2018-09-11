@@ -1,0 +1,30 @@
+html,
+body,
+#root {
+  height: 100%;
+  background-color: #303030;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mapboxgl-canvas {
+  position: static !important;
+}
+
+.mapboxgl-popup-content {
+  padding: 10px !important;
+}
+
+.mapboxgl-ctrl-geocoder {
+  min-width: 100% !important;
+}
+
+.mapboxgl-ctrl-geocoder input[type='text'] {
+  font-size: 14px !important;
+  font-family: 'Roboto' !important;
+}
